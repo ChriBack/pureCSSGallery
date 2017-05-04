@@ -1,0 +1,27 @@
+$background-color: #fff;
+$gallery-background-color: #fff;
+
+$product-border-color: #fff;
+$gallery-border-color: #e4e4e4;
+
+$info-text-color: #000;
+$product-text-color: #000;
+$price-text-color: #000;
+
+.price {
+  color: $price-text-color;
+}
+
+.description {
+  color: $product-text-color;
+}
+
+#ab-gal-wrapper {
+  background-color: $gallery-background-color;
+  border: 1px solid $gallery-border-color;
+
+  .product-wrapper {
+    border: 1px solid $product-border-color;
+    background-color: $background-color;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "pure-css-gallery",
+  "version": "0.0.1",
+  "description": "#pure-css-gallery",
+  "authors": [
+    "Christoph Backhaus <chriback@googlemail.com>"
+  ],
+  "scripts": {
+    "start": "npm-run-all --parallel http-server",
+    "test": "karma start",
+    "http-server": "lite-server"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-inline-source": "3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "3.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webserver": "0.9.1",
+    "lite-server": "^2.2.0",
+    "npm-run-all": "^1.8.0",
+    "run-sequence": "^1.2.2"
+  },
+  "standard": {
+    "globals": [
+      "angular",
+      "module",
+      "inject",
+      "jasmine",
+      "describe",
+      "xdescribe",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "xit",
+      "it",
+      "inject",
+      "expect",
+      "spyOn"
+    ]
+  }
+}
